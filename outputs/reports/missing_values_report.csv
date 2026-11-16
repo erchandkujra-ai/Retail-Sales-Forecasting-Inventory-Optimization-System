@@ -1,0 +1,10 @@
+Column,Missing Values,Missing Percentage
+date,0,0.0
+store_id,0,0.0
+sku,0,0.0
+category,0,0.0
+price,0,0.0
+promotion,0,0.0
+demand_simulated,0,0.0
+sales,0,0.0
+stockout,0,0.0

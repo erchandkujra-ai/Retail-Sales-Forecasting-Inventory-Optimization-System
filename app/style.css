@@ -1,0 +1,59 @@
+
+/* Main dark blue background */
+.stApp {
+    background-color: #14233F;
+    color: #F8FAFC;
+}
+
+/* Main headings */
+h1, h2, h3, h4 {
+    color: #60A5FA !important;
+}
+
+/* Paragraph and labels */
+p, label, span {
+    color: #F8FAFC;
+}
+
+/* Metric cards */
+[data-testid="stMetric"] {
+    background-color: #1E3A5F;
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid #2563EB;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: #1D4ED8;
+    color: white;
+}
+
+/* Dataframes */
+[data-testid="stDataFrame"] {
+    border: 1px solid #2563EB;
+    border-radius: 10px;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #0F1B30;
+}
+
+/* Inputs */
+.stTextInput input,
+.stNumberInput input,
+.stSelectbox div[data-baseweb="select"] {
+    background-color: #1E3A5F;
+    color: white;
+    border-color: #2563EB;
+}

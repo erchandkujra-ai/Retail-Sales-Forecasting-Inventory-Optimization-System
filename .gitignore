@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated data
+data/raw/*.csv
+data/processed/*.csv
+
+# Generated models
+models/*.joblib
+models/*.pkl
+
+# Generated outputs
+outputs/*.csv
+outputs/*.png
+
+# Operating system
+.DS_Store
+Thumbs.db
